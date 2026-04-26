@@ -1,8 +1,10 @@
-\# School Database System (PostgreSQL)
+# **School Database System (PostgreSQL)**
+
+#### 
+
+#### **Overview**
 
 
-
-\##  Overview
 
 This project is a relational database system built using PostgreSQL to simulate and analyze school operations. It focuses on designing a structured database, enforcing relationships, and extracting meaningful insights through SQL analysis.
 
@@ -16,7 +18,9 @@ The system manages students, courses, enrollments, payments, and teachers, with 
 
 
 
-\##  Objectives
+#### Objectives
+
+
 
 The goal of this project is to:
 
@@ -40,7 +44,7 @@ The goal of this project is to:
 
 
 
-\##  Database Structure
+#### Database Structure
 
 
 
@@ -68,7 +72,7 @@ Each table is interconnected using foreign key relationships to maintain consist
 
 
 
-\##  Relationships
+#### Relationships
 
 
 
@@ -88,11 +92,11 @@ These relationships allow cross-table analysis using JOIN operations.
 
 
 
-\##  Key Implementations
+#### Key Implementations
 
 
 
-\### 1. Schema Design
+1\. Schema Design
 
 Tables were created using appropriate data types, primary keys, and structured fields to represent real-world school data.
 
@@ -102,7 +106,7 @@ Tables were created using appropriate data types, primary keys, and structured f
 
 
 
-\### 2. Data Integrity
+2\. Data Integrity
 
 Foreign key constraints were implemented to ensure referential integrity between tables and prevent orphan records.
 
@@ -112,7 +116,9 @@ Foreign key constraints were implemented to ensure referential integrity between
 
 
 
-\### 3. Data Analysis
+3\. Data Analysis
+
+
 
 SQL queries were used to analyze:
 
@@ -132,7 +138,7 @@ SQL queries were used to analyze:
 
 
 
-\### 4. Performance Optimization
+4\. Performance Optimization
 
 Indexes were created on frequently queried columns, and EXPLAIN ANALYZE was used to evaluate query execution plans and improve performance understanding.
 
@@ -142,19 +148,19 @@ Indexes were created on frequently queried columns, and EXPLAIN ANALYZE was used
 
 
 
-\##  Key Insights
+#### **Key Insights**
 
 
 
-\- Revenue shows fluctuations over time with a peak in 2021 and decline in 2023  
+\- Revenue shows fluctuations over time with a peak in 2021 and decline in 2023
 
-\- A small group of students contributes a large share of total revenue  
+\- A small group of students contributes a large share of total revenue
 
-\- Computer Science has the highest enrollment demand  
+\- Computer Science has the highest enrollment demand
 
-\- Business is the most populated department  
+\- Business is the most populated department
 
-\- Payment completion is nearly balanced between paid and pending statuses  
+\- Payment completion is nearly balanced between paid and pending statuses
 
 
 
@@ -162,7 +168,7 @@ Indexes were created on frequently queried columns, and EXPLAIN ANALYZE was used
 
 
 
-\##  Tools \& Technologies
+#### Tools \& Technologies
 
 
 
@@ -182,21 +188,21 @@ Indexes were created on frequently queried columns, and EXPLAIN ANALYZE was used
 
 
 
-\##  Project Workflow
+#### **Project Workflow**
 
 
 
-1\. Database schema design and creation  
+1\. Database schema design and creation
 
-2\. Data import and cleaning  
+2\. Data import and cleaning
 
-3\. Relationship setup using foreign keys  
+3\. Relationship setup using foreign keys
 
-4\. Analytical SQL queries  
+4\. Analytical SQL queries
 
-5\. Performance tuning with indexing  
+5\. Performance tuning with indexing
 
-6\. Insight generation and visualization  
+6\. Insight generation and visualization
 
 
 
@@ -204,7 +210,7 @@ Indexes were created on frequently queried columns, and EXPLAIN ANALYZE was used
 
 
 
-\## 🚀 Outcome
+#### **Outcome**
 
 This project demonstrates the ability to design a relational database system, enforce data integrity, optimize queries, and derive actionable insights from structured data.
 
@@ -214,9 +220,7 @@ This project demonstrates the ability to design a relational database system, en
 
 
 
-\## 👤 Author
+#### **Author**
 
-Emmanuella N. Okonkwo
-
-
+**Emmanuella N. Okonkwo**
 
